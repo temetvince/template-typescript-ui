@@ -1,19 +1,8 @@
 import React from "react";
+import AppLoader from "./AppLoader";
 import { createRoot } from "react-dom/client";
-import App from "./App.tsx";
 
-function component() {
-   const container = document.getElementById("root");
-
-   if (container) {
-      const root = createRoot(container);
-      root.render(<App />);
-   }
-
-   return container;
-}
-
-const container = component();
-if (container) {
-   document.body.appendChild(container);
+const rootElement = document.getElementById("root");
+if (rootElement) {
+   createRoot(rootElement).render(<AppLoader />);
 }

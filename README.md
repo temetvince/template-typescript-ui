@@ -7,6 +7,9 @@
 * Babel
 * ESLint
 * Prettier
+* PrimeReact
+* PrimeIcons
+* PrimeFlex
 
 ### Updates
 Updating provided by npm-check-updates:
