@@ -6,8 +6,9 @@ function App() {
    const [count, setCount] = React.useState(0);
 
    return (
-      <div className="App">
+      <div className="App flex flex-column justify-content-center align-content-center align-items-center m-auto h-screen w-8rem">
          <Button
+            className=""
             label="Click"
             icon="pi pi-plus"
             onClick={() => {
