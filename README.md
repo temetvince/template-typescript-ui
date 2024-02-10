@@ -1,15 +1,19 @@
 # A template for new web projects
 
-### Stack
-* Typescript
+### UI Stack
+* Axios (Not Configured)
+* P5 (Not Configured)
+* PrimeFlex
+* PrimeIcons
+* PrimeReact
 * React
-* Webpack
+
+### Dev Stack
 * Babel
 * ESLint
 * Prettier
-* PrimeReact
-* PrimeIcons
-* PrimeFlex
+* Typescript
+* Webpack
 
 ### Updates
 Updating provided by npm-check-updates:
