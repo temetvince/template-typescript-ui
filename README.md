@@ -1,7 +1,7 @@
 # A template for new web projects
 
 ### UI Stack
-* Axios (Not Configured)
+* Axios
 * P5 (Not Configured)
 * PrimeFlex
 * PrimeIcons
