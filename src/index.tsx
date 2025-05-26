@@ -1,11 +1,17 @@
-import React from "react";
-import AppLoader from "./AppLoader";
-import { createRoot } from "react-dom/client";
-import { run } from "./Query";
+import React from 'react';
+import App from './components/App';
+import { createRoot } from 'react-dom/client';
+import './styles/index.css';
 
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById('root');
+
 if (rootElement) {
-   createRoot(rootElement).render(<AppLoader />);
+  const root = createRoot(rootElement);
+  root.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+  );
+} else {
+  console.error('Root element not found');
 }
-
-await run();
